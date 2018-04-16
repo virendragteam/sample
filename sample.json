@@ -1,0 +1,27 @@
+[
+  {
+    "action": "talk",
+    "text": "This is AlertFind Bytestacker notification system calling for Virendra Patidar. Please unlock the keypad if necessary, and press one to continue. This message will repeat two more times",
+    "voiceName": "Amy",
+    "bargeIn": true,
+    "loop": 2
+  },
+  {
+    "action": "talk",
+    "text": "This is alertind notification test message using nexmo for Virendra patidar. press 1 to confirm the notification 2 to decline it",
+    "voiceName": "Amy",
+    "bargeIn": true
+  },
+  {
+    "action": "input",
+    "submitOnHash": true,
+    "eventUrl": [
+      "http://10.18.6.118:9090/api/callback/accept"
+    ]
+  },
+  {
+    "action": "talk",
+    "text": "Your response has been confirmed successfully.",
+    "voiceName": "Amy"
+  }
+]
